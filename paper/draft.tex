@@ -1,0 +1,60 @@
+\documentclass[man]{apa6}
+
+\title{Bayesian inference and testing any hypothesis you can specify}
+\shorttitle{Testing any hypothesis}
+
+\usepackage{
+	amsmath,amssymb,amsfonts,apacite,
+    csquotes,
+	epsfig,epstopdf,epigraph,
+    graphicx,
+    mathtools,
+	subfig,
+    textcomp,tikz,
+    url}
+\usepackage[super]{nth}
+\usepackage[english]{babel}
+\usepackage[]{todonotes}
+\usepackage{boxedminipage}
+\usepackage[many]{tcolorbox}
+\usepackage{setspace}\doublespacing
+
+\definecolor{BurntOrange}{rgb}{0.8,0.4,0.0}
+
+\newcommand{\hyp}[1]{{\textbf{#1}}}
+
+\newtcolorbox{framefloat}[1][!tb]{arc=5pt,outer arc=5pt,boxrule=0.4pt,float*=p,
+  colframe=black,colback=BurntOrange,float=#1}
+\tcbset{float*=t,width=\textwidth,colback=white,colframe=white!60!black,enhanced}
+
+\renewcommand{\H}{{\mathcal{H}}}
+\renewcommand{\:}{{:}}
+
+\newcommand{\osf}{\url{https://osf.io/mvp53/}}
+\setlength{\epigraphwidth}{0.9\textwidth}
+
+\newcommand{\bino}[1]{\binom{n}{k} #1^k (1-#1)^{n-k}}
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+
+\newcommand{\red}[1]{{\color{red}#1}}
+
+\author{Alexander Etz$^a$, Julia M.\ Haaf$^b$, Jeffrey N.\ Rouder$^{a,b}$, and Joachim Vandekerckhove$^{a,\dagger}$}
+
+\affiliation{$^a$University of California, Irvine\\$^b$University of Missouri}
+
+\authornote{The authors declare no conflicts of interest. The authors were supported by National Science Foundation grant \#1534472 to JV and an NSF GRFP fellowship to AE.\\\textsuperscript{$\dagger$}To whom correspondence should be addressed. E-mail: joachim@uci.edu.}
+
+\abstract{Hypothesis testing is a special form of model selection.  Once a pair of competing models is fully defined, their definition immediately leads to a measure of how strongly each model supports the data.  The ratio of their support is often called the likelihood ratio or the Bayes factor.  Critical in the model selection endeavor is the specification of the models.  In the case of hypothesis testing, it is of the greatest importance that we specify exactly what is meant by a ``null'' hypothesis as well as the alternative to which it is contrasted, and that these are suitable instantiations of theoretical positions.  Here, we provide an overview of different instantiations of null and alternative hypotheses that can be useful in practice, while the underlying method of likelihood comparison is universal and identical in all cases. An associated app can be found via \osf{}.}
+
+\graphicspath{{./grey/}}
+
+\begin{document}
+
+
+\input{body}
+
+\bibliographystyle{apacite}
+\bibliography{references}\null
+
+
+\end{document}

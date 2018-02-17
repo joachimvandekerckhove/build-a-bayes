@@ -1,0 +1,76 @@
+\documentclass[9pt,twocolumn,twoside]{cidlab-draft}
+
+\templatetype{cidlab-invited}
+
+\title{Bayesian inference and testing any hypothesis you can
+specify}
+
+\usepackage{
+	amsmath,amssymb,amsfonts,
+    csquotes,
+	epsfig,epstopdf,epigraph,
+    graphicx,
+    mathtools,
+	subfig,
+    tikz,
+    url}
+\usepackage[super]{nth}
+\usepackage[english]{babel}
+\usepackage[]{todonotes}
+\usepackage[many]{tcolorbox}
+\usepackage{setspace}
+
+\definecolor{BurntOrange}{rgb}{0.8,0.4,0.0}
+\newcommand{\hyp}[1]{{\color{BurntOrange}{#1}}}
+
+\newtcolorbox{framefloat}[1][!tb]{arc=5pt,outer arc=5pt,boxrule=0.4pt,float*=t,
+  colframe=black,colback=BurntOrange,float=#1}
+\tcbset{float*=t,width=\textwidth,colback=orange!10!white,colframe=orange!80!black,enhanced}
+
+\renewcommand{\H}{{\mathcal{H}}}
+\renewcommand{\:}{{:}}
+
+\newcommand{\osf}{\url{https://osf.io/mvp53/}}
+\newcommand{\jv}[1]{\todo[color=orange,inline]{#1}}
+
+\newcommand{\bino}[1]{\binom{n}{k} #1^k (1-#1)^{n-k}}
+\newcommand*\diff{\mathop{}\!\mathrm{d}}
+
+\newcommand{\red}[1]{{\color{red}#1}}
+
+\author[a]{Alexander Etz}
+\author[b]{Julia M.\ Haaf}
+\author[a,b]{Jeffrey N.\ Rouder}
+\author[a,$\dagger$]{Joachim Vandekerckhove}
+
+\affil[a]{University of California, Irvine}
+\affil[b]{University of Missouri}
+
+\leadauthor{Etz} 
+
+\significancestatement{}
+\authorcontributions{}
+\equalauthors{}
+\authordeclaration{The authors declare no conflicts of interest. The authors were supported by National Science Foundation grant \#1534472 to JV and the National Science Foundation Graduate Research Fellowship Program \#DGE-1321846 to AE.}
+\correspondingauthor{\textsuperscript{$\dagger$}To whom correspondence should be addressed. E-mail: joachim@uci.edu.}
+
+\keywords{Bayesian inference $|$ Bayesian statistics $|$ Bayes factor $|$ Testing the null $|$ Philosophy of science} 
+
+\begin{abstract} 
+Hypothesis testing is a special form of model selection.  Once a pair of competing models is fully defined, their definition immediately leads to a measure of how strongly each model supports the data.  The ratio of their support is often called the likelihood ratio or the Bayes factor.  Critical in the model selection endeavor is the specification of the models.  In the case of hypothesis testing, it is of the greatest importance that we specify exactly what is meant by a ``null'' hypothesis as well as the alternative to which it is contrasted, and that these are suitable instantiations of theoretical positions.  Here, we provide an overview of different instantiations of null and alternative hypotheses that can be useful in practice, while the underlying method of likelihood comparison is universal and identical in all cases.  An associated app can be found via \osf{}.
+\end{abstract}
+
+\dates{This manuscript was compiled on \today}
+
+\graphicspath{{./pics/}}
+
+\begin{document}
+
+\thispagestyle{firststyle}
+
+\input{body}
+
+\bibliography{references}\null
+
+%\newpage\begin{figure}\centering\includegraphics[scale=0.3]{pics/sweep.jpg}\\\large ``Nulls, nulls, nulls...''\end{figure}
+\end{document}
