@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+Warning--No address in jaynes2003probability
+Warning--No address in lee2018bayesian
+Warning--No address in LeeWagenmakersBayesBook
+Warning--No address in rosenkrantz1983jaynes
+Warning--No journal in rouder2013bayes
+Warning--No address in VandekerckhoveEtAl2015MPT
+You've used 41 entries,
+            5297 wiz_defined-function locations,
+            1270 strings with 14776 characters,
+and the built_in function-call counts, 60032 in all, are:
+= -- 7380
+> -- 620
+< -- 3085
++ -- 2595
+- -- 82
+* -- 3559
+:= -- 11635
+add.period$ -- 164
+call.type$ -- 41
+change.case$ -- 207
+chr.to.int$ -- 0
+cite$ -- 88
+duplicate$ -- 1101
+empty$ -- 2489
+format.name$ -- 748
+if$ -- 11823
+int.to.chr$ -- 0
+int.to.str$ -- 82
+missing$ -- 0
+newline$ -- 497
+num.names$ -- 332
+pop$ -- 1035
+preamble$ -- 1
+purify$ -- 164
+quote$ -- 0
+skip$ -- 4111
+stack$ -- 0
+substring$ -- 2628
+swap$ -- 881
+text.length$ -- 94
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 3392
+warning$ -- 6
+while$ -- 163
+width$ -- 0
+write$ -- 1029
+(There were 6 warnings)

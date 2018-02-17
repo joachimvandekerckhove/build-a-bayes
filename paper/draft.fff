@@ -1,0 +1,54 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[bt]
+\includegraphics[width=.475\textwidth]{settled.png}
+\caption{The existence of a number of unlikely creatures such as lake monsters and the sasquatch has gradually become falsified over the last decade or so as mobile cameras have become ubiquitous.  The implication is that, if such creatures did exist, clear photographic evidence would be available by now with high probability.  By contrast, if they did not exist, any photographic evidence would be unclear and unconvincing as it always has been. Since clearer photographs have not emerged, and there are no strong prior reasons to believe in these phenomena, we may reasonably conclude that lake monsters, flying saucers, ghosts, and Bigfoot do not exist. However, the jury is still out on the Grinch, Whos, and other snowflake-dwellers. This drawing is titled ``Settled'' and is \copyright Randall Munroe (xkcd.com/1235).
+}\label{fig:xkcd}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tb]
+\includegraphics[width=0.49\textwidth]{custom-p.png}\\
+\includegraphics[width=0.49\textwidth]{custom-d.png}
+\caption{\textbf{Top.} The point null hypothesis is represented by a spike at \textonehalf{} (solid line), and the uniformly positive alternative spans from \textonehalf{} to 1 (dashed line). \textbf{Bottom.} The predictions from the point null hypothesis (gold, inverted bars) and the uniformly positive alternative (blue). The arrows indicate the observed data in a fictional ESP experiment, and the Bayes factor is the ratio of the heights of the two bars.}\label{fig:pv}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tb]
+\includegraphics[width=0.49\textwidth]{pointvp-p.png}\\
+\includegraphics[width=0.49\textwidth]{pointvp-d.png}
+\caption{\textbf{Top.} The point null (solid line) and point alternative (dashed line) hypotheses are represented by spikes at 50\% and 53\%, respectively. \textbf{Bottom.} Predictions from the two point hypotheses (point null predictions are drawn in gold and inverted; point alternative predictions in blue) are hard to distinguish, meaning that we will not be able to obtain much evidence for one over the other.}\label{fig:v}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[t]
+\includegraphics[width=0.49\textwidth]{notched-p.png}\\
+\includegraphics[width=0.49\textwidth]{notched-d.png}
+\caption{\textbf{Top.} The solid line represents the null interval (where the effect would be considered negligible) and the dashed line its complement (where the effect is non-negligible). \textbf{Bottom.} Predictions from the two models (predictions from the negligible-effect hypothesis are drawn in gold and inverted; predictions from the complement in blue).}\label{fig:r}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tb]
+\includegraphics[width=0.49\textwidth]{point-p.png}\\
+\includegraphics[width=0.49\textwidth]{point-d.png}
+\caption{\textbf{Top.} The solid spike represents the point null and the dashed line the alternative. \textbf{Bottom.} The predictions from the two models. Note how similar the predictions of the slab hypothesis are to those from the non-negligible-effect hypothesis in the bottom panel of Figure~\ref{fig:r}.}\label{fig:p}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tb]
+\includegraphics[width=0.49\textwidth]{signed-p.png}\\
+\includegraphics[width=0.49\textwidth]{signed-d.png}
+\caption{\textbf{Top.} The representation of the two complementary directional hypotheses. \textbf{Bottom.} The predictions from the models, which look quite different and allow for faster accumulation of evidence.}\label{fig:s}
+\end{figure*}
+\efloatseparator
+ 
