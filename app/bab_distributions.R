@@ -20,7 +20,14 @@ dcrud <- function(x, t) {
 }
 
 dnotch <- function(x, lo, up) {
-  0.5 * dunif(x, 0.0, lo) + 0.5 * dunif(x, up, 1.0)
+  if (lo <= 0) {
+    dunif(x, up, 1.0)
+  } else {
+    if (up >=1)
+      dunif(x, 0.0, lo)
+    else
+      0.5 * dunif(x, 0.0, lo) + 0.5 * dunif(x, up, 1.0)
+  }
 }
 
 dhnorm <- function(x, left = T) {
@@ -73,7 +80,14 @@ dinternorm <- function(x, m, e, si) {
 }
 
 dnotchbinom <- function(x, N, lo, up) {
-  0.5 * dunifbinom (x, N, 0.0, lo) + 0.5 * dunifbinom (x, N, up, 1.0)
+  if (lo <= 0) {
+    dunifbinom (x, N, up, 1.0)
+  } else {
+    if (up >=1)
+      dunifbinom (x, N, 0.0, lo)
+    else
+      0.5 * dunifbinom (x, N, 0.0, lo) + 0.5 * dunifbinom (x, N, up, 1.0)
+  }
 }
 
 dnormnorm <- function(x, mu0, si0, si) {

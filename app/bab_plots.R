@@ -216,14 +216,18 @@ text.bf <- function(n, i, type) {
   if (bf$value < 1) {
     bfx = 1/bf$value
     mod = "null"
+    bfw = bf$y0
+    bfl = bf$y1
   }
   else {
     bfx = bf$value
     mod = "alternative"
+    bfw = bf$y1
+    bfl = bf$y0
   }
-  sprintf("At the observed data (x = %g out of N = %g),
-           the Bayes factor favoring the %s is %.4g.", 
-           p$data, p$N, mod, bfx)
+  sprintf("At the observed data (x = %g; N = %g),
+           the Bayes factor favoring the %s is %.4g / %.4g = %.4g.", 
+           p$data, p$N, mod, bfw, bfl, bfx)
 }
 text.post <- function(n, i, type) {
   fcn = n[[type]]
