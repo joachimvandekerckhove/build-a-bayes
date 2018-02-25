@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  16 FEB 2018 23:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  24 FEB 2018 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**draft.tex
+**draft
 (./draft.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
@@ -1191,40 +1191,41 @@ Underfull \vbox (badness 2334) has occurred while \output is active []
 Underfull \vbox (badness 2384) has occurred while \output is active []
 
  [11]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+ []
+
+
+LaTeX Warning: Float too large for page by 17.64618pt on input line 143.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
 
-LaTeX Warning: Float too large for page by 17.64618pt on input line 150.
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
-[13] [14]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15]
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
-
- []
-
-) (./draft.bbl [16] [17] [18] [19] [20
+ [13]
+[14] [15]) (./draft.bbl [16] [17] [18] [19] [20
 
 ]
 Underfull \vbox (badness 6510) has occurred while \output is active []
@@ -1320,11 +1321,11 @@ Package pdftex.def Info: ./grey/signed-d.png used on input line 50.
 Here is how much of TeX's memory you used:
  29039 strings out of 494953
  578699 string characters out of 6180977
- 641047 words of memory out of 5000000
+ 643047 words of memory out of 5000000
  31815 multiletter control sequences out of 15000+600000
  95631 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 58i,13n,93p,10499b,888s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,13n,93p,10495b,888s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf
 /fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.en
 c}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
@@ -1344,7 +1345,7 @@ ype1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/p
 ublic/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/shar
 e/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on draft.pdf (29 pages, 471054 bytes).
+Output written on draft.pdf (29 pages, 471089 bytes).
 PDF statistics:
  226 PDF objects out of 1000 (max. 8388607)
  150 compressed objects within 2 object streams
