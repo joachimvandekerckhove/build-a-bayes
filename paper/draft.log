@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  24 FEB 2018 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  3 MAR 2018 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**draft
+**draft.tex
 (./draft.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
@@ -1325,7 +1325,7 @@ Here is how much of TeX's memory you used:
  31815 multiletter control sequences out of 15000+600000
  95631 words of font info for 86 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 58i,13n,93p,10495b,888s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,13n,93p,10499b,888s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf
 /fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.en
 c}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
